@@ -1,0 +1,602 @@
+# Copyright (C) 2018 RedPic ADS Manager
+# This file is distributed under the same license as the RedPic ADS Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: RedPic ADS Manager 1.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rp-ads-manager\n"
+"POT-Creation-Date: 2018-06-11 11:55:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: src/Controller/Backend.php:88 src/Controller/Backend.php:155
+#: templates/backend/codes/list.php:88
+msgid "No group"
+msgstr ""
+
+#: src/Controller/Backend.php:96 src/Controller/Backend.php:188
+#: src/Controller/Backend.php:224
+msgid "Bulk Actions"
+msgstr ""
+
+#: src/Controller/Backend.php:97 templates/backend/codes/list.php:81
+msgid "Activate"
+msgstr ""
+
+#: src/Controller/Backend.php:98 templates/backend/codes/list.php:77
+msgid "Deactivate"
+msgstr ""
+
+#: src/Controller/Backend.php:99 src/Controller/Backend.php:189
+#: src/Controller/Backend.php:225 templates/backend/codes/editor.php:193
+#: templates/backend/codes/list.php:85 templates/backend/groups/editor.php:27
+#: templates/backend/groups/list.php:35
+#: templates/backend/shortcodes/editor.php:21
+#: templates/backend/shortcodes/list.php:35
+msgid "Delete"
+msgstr ""
+
+#: src/Controller/Backend.php:146
+msgid "Copy"
+msgstr ""
+
+#: src/Controller/Backend.php:258
+msgid "Settings Saved"
+msgstr ""
+
+#: src/Controller/Backend.php:265 src/WP/Help.php:99
+#: templates/backend/codes/editor.php:22
+msgid "Main options"
+msgstr ""
+
+#: src/Controller/Backend.php:273 src/WP/Help.php:104
+#: templates/backend/codes/editor.php:23 templates/backend/groups/editor.php:16
+msgid "Targeting"
+msgstr ""
+
+#: src/Controller/Backend.php:273 src/Controller/Backend.php:281
+#: src/Controller/Backend.php:290 templates/backend/codes/editor.php:24
+#: templates/backend/groups/editor.php:17
+msgid "soon"
+msgstr ""
+
+#: src/Controller/Backend.php:281 src/WP/Help.php:109
+msgid "Import/Export"
+msgstr ""
+
+#: src/Controller/Backend.php:290 src/WP/Help.php:114
+msgid "Remote management"
+msgstr ""
+
+#: src/Helper/AdWidget.php:16 src/WP/Widget.php:20
+msgid "Allows to show ads from RedPic Ads Manager"
+msgstr ""
+
+#: src/Helper/AdWidget.php:19
+msgid "Ad placeholder (RP Ads Manager)"
+msgstr ""
+
+#: src/Helper/AdWidget.php:37 src/WP/Widget.php:87
+#: templates/backend/groups/list.php:20
+#: templates/backend/shortcodes/list.php:20
+msgid "Title"
+msgstr ""
+
+#: src/Helper/Code.php:88 src/Helper/Group.php:32 src/Helper/Shortcode.php:32
+msgid "Successfully created"
+msgstr ""
+
+#: src/Helper/Code.php:148 src/Helper/Group.php:58 src/Helper/Shortcode.php:58
+msgid "Successfully updated"
+msgstr ""
+
+#: src/Helper/Code.php:156
+msgid "Successfully activated"
+msgstr ""
+
+#: src/Helper/Code.php:164
+msgid "Successfully deactivated"
+msgstr ""
+
+#: src/Helper/Code.php:173 src/Helper/Group.php:67 src/Helper/Shortcode.php:73
+msgid "Successfully deleted"
+msgstr ""
+
+#: src/Helper/wpView.php:41
+msgid "at the beginning"
+msgstr ""
+
+#: src/Helper/wpView.php:42
+msgid "in the middle"
+msgstr ""
+
+#: src/Helper/wpView.php:43
+msgid "in the end"
+msgstr ""
+
+#: src/Helper/wpView.php:49
+msgid "after Paragraph #{N}"
+msgstr ""
+
+#: src/Helper/wpView.php:50
+msgid "before last Paragraph"
+msgstr ""
+
+#: src/Helper/wpView.php:51
+msgid "after Image #{N}"
+msgstr ""
+
+#: src/Helper/wpView.php:58
+msgid "after <!--more--> tag"
+msgstr ""
+
+#: src/Helper/wpView.php:65
+msgid "after each {N} Post"
+msgstr ""
+
+#: src/Helper/wpView.php:66
+msgid "after Post  #{N}"
+msgstr ""
+
+#: src/Helper/wpView.php:72
+msgid "Single (Post)"
+msgstr ""
+
+#: src/Helper/wpView.php:76
+msgid "Page"
+msgstr ""
+
+#: src/Helper/wpView.php:80
+msgid "Homepage"
+msgstr ""
+
+#: src/Helper/wpView.php:84
+msgid "Category"
+msgstr ""
+
+#: src/Helper/wpView.php:88
+msgid "Archive"
+msgstr ""
+
+#: src/Helper/wpView.php:92
+msgid "Tag"
+msgstr ""
+
+#: src/Helper/wpView.php:96
+msgid "Shortcode"
+msgstr ""
+
+#: src/Helper/wpView.php:100
+msgid "Widget"
+msgstr ""
+
+#: src/WP/Help.php:20
+msgid "For more information:"
+msgstr ""
+
+#: src/WP/Help.php:21
+msgid "Official page"
+msgstr ""
+
+#: src/WP/Help.php:22
+msgid "Support Forums"
+msgstr ""
+
+#: src/WP/Help.php:34 src/WP/Help.php:49 src/WP/Help.php:64 src/WP/Help.php:79
+#: src/WP/Help.php:94
+msgid "Overview"
+msgstr ""
+
+#: src/WP/Settings.php:54
+msgid "Header code block"
+msgstr ""
+
+#: src/WP/Settings.php:65
+msgid "Footer code block"
+msgstr ""
+
+#: src/WP/Settings.php:79
+msgid "display"
+msgstr ""
+
+#: src/WP/Settings.php:80
+msgid "block"
+msgstr ""
+
+#: src/WP/Settings.php:82
+msgid "Global ads display policy"
+msgstr ""
+
+#: src/WP/Widget.php:23
+msgid "Code placeholder (RP Ads Manager)"
+msgstr ""
+
+#: templates/backend/codes/editor.php:17
+msgid "Code block title"
+msgstr ""
+
+#: templates/backend/codes/editor.php:30
+msgid "Code (js/html)"
+msgstr ""
+
+#: templates/backend/codes/editor.php:46
+msgid "Use separated init code (js only) and output it to footer"
+msgstr ""
+
+#: templates/backend/codes/editor.php:60
+msgid "Select group"
+msgstr ""
+
+#: templates/backend/codes/editor.php:67
+msgid "Select existing or enter new value"
+msgstr ""
+
+#: templates/backend/codes/editor.php:69
+msgid "Where to display block"
+msgstr ""
+
+#: templates/backend/codes/editor.php:85
+msgid "You must add widget to page to use this option. Go to"
+msgstr ""
+
+#: templates/backend/codes/editor.php:86 templates/backend/import.php:40
+msgid "Widgets"
+msgstr ""
+
+#: templates/backend/codes/editor.php:89
+msgid "You must add shortcode to use this option. Go to"
+msgstr ""
+
+#: templates/backend/codes/editor.php:90
+msgid "Shortcodes"
+msgstr ""
+
+#: templates/backend/codes/editor.php:96
+msgid "Aligment"
+msgstr ""
+
+#: templates/backend/codes/editor.php:101
+msgid "none"
+msgstr ""
+
+#: templates/backend/codes/editor.php:102
+msgid "left"
+msgstr ""
+
+#: templates/backend/codes/editor.php:103
+msgid "center"
+msgstr ""
+
+#: templates/backend/codes/editor.php:104
+msgid "right"
+msgstr ""
+
+#: templates/backend/codes/editor.php:114
+msgid "Custom CSS class"
+msgstr ""
+
+#: templates/backend/codes/editor.php:131
+msgid "Show everywhere"
+msgstr ""
+
+#: templates/backend/codes/editor.php:132
+msgid "Show on"
+msgstr ""
+
+#: templates/backend/codes/editor.php:133
+msgid "Do not show on"
+msgstr ""
+
+#: templates/backend/codes/editor.php:156
+msgid "Position"
+msgstr ""
+
+#: templates/backend/codes/editor.php:163
+msgid "Nowhere"
+msgstr ""
+
+#: templates/backend/codes/editor.php:170
+msgid "number"
+msgstr ""
+
+#: templates/backend/codes/editor.php:175 templates/backend/dashboard.php:12
+msgid "or"
+msgstr ""
+
+#: templates/backend/codes/editor.php:178
+msgid "in the end if not enought elements"
+msgstr ""
+
+#: templates/backend/codes/editor.php:189
+#: templates/backend/groups/editor.php:24 templates/backend/import.php:47
+#: templates/backend/shortcodes/editor.php:18
+msgid "Back"
+msgstr ""
+
+#: templates/backend/codes/editor.php:190
+#: templates/backend/groups/editor.php:25
+#: templates/backend/shortcodes/editor.php:19
+msgid "Save"
+msgstr ""
+
+#: templates/backend/codes/editor.php:204
+msgid "Enter <b>title</b> min: 2 symbols"
+msgstr ""
+
+#: templates/backend/codes/editor.php:205
+msgid "You must enter <b>number</b> with this option selected"
+msgstr ""
+
+#: templates/backend/codes/editor.php:206
+msgid "Enter <b>block code</b> min: 10 symbols"
+msgstr ""
+
+#: templates/backend/codes/editor.php:207
+msgid "Enter <b>init code</b> min: 10 symbols or disable it"
+msgstr ""
+
+#: templates/backend/codes/editor.php:208
+msgid "Enter <b>ids</b> with this display policy"
+msgstr ""
+
+#: templates/backend/codes/editor.php:209
+msgid "Enter <b>Group name</b> min: 2 symbols"
+msgstr ""
+
+#: templates/backend/codes/editor.php:214 templates/backend/codes/list.php:127
+msgid "Do you want to delete this object?"
+msgstr ""
+
+#: templates/backend/codes/list.php:4
+msgid "Create Ad"
+msgstr ""
+
+#: templates/backend/codes/list.php:15
+msgid "All"
+msgstr ""
+
+#: templates/backend/codes/list.php:19 templates/backend/dashboard.php:32
+msgid "Active"
+msgstr ""
+
+#: templates/backend/codes/list.php:23
+msgid "Inactive"
+msgstr ""
+
+#: templates/backend/codes/list.php:32 templates/backend/codes/list.php:114
+#: templates/backend/groups/list.php:11 templates/backend/groups/list.php:51
+#: templates/backend/shortcodes/list.php:11
+#: templates/backend/shortcodes/list.php:54
+msgid "Apply"
+msgstr ""
+
+#: templates/backend/codes/list.php:35
+msgid "All groups"
+msgstr ""
+
+#: templates/backend/codes/list.php:36
+msgid "All places"
+msgstr ""
+
+#: templates/backend/codes/list.php:37
+msgid "All positions"
+msgstr ""
+
+#: templates/backend/codes/list.php:38
+msgid "Filter"
+msgstr ""
+
+#: templates/backend/codes/list.php:47 templates/backend/groups/list.php:18
+#: templates/backend/shortcodes/list.php:18
+msgid "Select all"
+msgstr ""
+
+#: templates/backend/codes/list.php:51
+msgid "Ad record"
+msgstr ""
+
+#: templates/backend/codes/list.php:52
+msgid "Group"
+msgstr ""
+
+#: templates/backend/codes/list.php:54
+msgid "Options"
+msgstr ""
+
+#: templates/backend/codes/list.php:63 templates/backend/groups/list.php:29
+#: templates/backend/shortcodes/list.php:29
+msgid "Select"
+msgstr ""
+
+#: templates/backend/codes/list.php:72
+msgid "Duplicate"
+msgstr ""
+
+#: templates/backend/codes/list.php:74 templates/backend/groups/list.php:34
+#: templates/backend/shortcodes/list.php:34
+msgid "Edit"
+msgstr ""
+
+#: templates/backend/codes/list.php:92
+msgid "Displays at"
+msgstr ""
+
+#: templates/backend/codes/list.php:105 templates/backend/groups/list.php:43
+#: templates/backend/shortcodes/list.php:46
+msgid "No records found"
+msgstr ""
+
+#: templates/backend/codes/list.php:105 templates/backend/groups/list.php:43
+#: templates/backend/shortcodes/list.php:46
+msgid "create new"
+msgstr ""
+
+#: templates/backend/dashboard.php:7
+msgid "Welcome"
+msgstr ""
+
+#: templates/backend/dashboard.php:10
+msgid "Get Started"
+msgstr ""
+
+#: templates/backend/dashboard.php:11
+msgid "Create code block"
+msgstr ""
+
+#: templates/backend/dashboard.php:12
+msgid "customize existing"
+msgstr ""
+
+#: templates/backend/dashboard.php:15
+msgid "Next Steps"
+msgstr ""
+
+#: templates/backend/dashboard.php:18
+msgid "Manage"
+msgstr ""
+
+#: templates/backend/dashboard.php:19
+msgid "groups"
+msgstr ""
+
+#: templates/backend/dashboard.php:19
+msgid "and"
+msgstr ""
+
+#: templates/backend/dashboard.php:20
+msgid "shortcodes"
+msgstr ""
+
+#: templates/backend/dashboard.php:24
+msgid "Check other settings"
+msgstr ""
+
+#: templates/backend/dashboard.php:29
+msgid "Satistics"
+msgstr ""
+
+#: templates/backend/dashboard.php:31
+msgid "Total blocks"
+msgstr ""
+
+#: templates/backend/groups/editor.php:2 templates/backend/groups/list.php:3
+msgid "Create group"
+msgstr ""
+
+#: templates/backend/groups/editor.php:2
+msgid "Edit group"
+msgstr ""
+
+#: templates/backend/groups/editor.php:11
+msgid "Group title"
+msgstr ""
+
+#: templates/backend/groups/list.php:21
+msgid "Information"
+msgstr ""
+
+#: templates/backend/import.php:12
+msgid "Processing data from"
+msgstr ""
+
+#: templates/backend/import.php:16
+msgid "No data to import found =("
+msgstr ""
+
+#: templates/backend/import.php:20
+msgid "Ready to import"
+msgstr ""
+
+#: templates/backend/import.php:24
+msgid "Ad blocks"
+msgstr ""
+
+#: templates/backend/import.php:28
+msgid "Ad code (js/html)"
+msgstr ""
+
+#: templates/backend/import.php:49
+msgid "Do Import"
+msgstr ""
+
+#: templates/backend/import.php:55
+msgid ""
+"Successfuly imported all data. Now navigate to Dashboard and check ads "
+"options."
+msgstr ""
+
+#: templates/backend/import.php:57
+msgid "Dashboard"
+msgstr ""
+
+#: templates/backend/import.php:60
+msgid ""
+"There was an error while importing data. Please start import from the "
+"begining."
+msgstr ""
+
+#: templates/backend/import.php:62
+msgid "Import"
+msgstr ""
+
+#: templates/backend/settings/main.php:14
+msgid "Save Settings"
+msgstr ""
+
+#: templates/backend/shortcodes/editor.php:2
+#: templates/backend/shortcodes/list.php:3
+msgid "Create shortcode"
+msgstr ""
+
+#: templates/backend/shortcodes/editor.php:2
+msgid "Edit shortcode"
+msgstr ""
+
+#: templates/backend/shortcodes/editor.php:11
+msgid "Shortcode title"
+msgstr ""
+
+#: templates/backend/shortcodes/list.php:21
+msgid "Usage"
+msgstr ""
+
+#: templates/backend/shortcodes/list.php:39
+msgid "In post"
+msgstr ""
+
+#: templates/backend/shortcodes/list.php:40
+msgid "In templates"
+msgstr ""
+
+#: templates/comming_soon.php:4
+msgid "Under Construction!"
+msgstr ""
+
+#: templates/not_found.php:2
+msgid "Ooops! Page not found!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "RedPic ADS Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rp-ads-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"JS/HTML ads block manager. Allows you to create and insert blocks of code "
+"anywhere on the blog."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RedPic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/sadikoff"
+msgstr ""

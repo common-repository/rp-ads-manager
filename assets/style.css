@@ -1,0 +1,237 @@
+.rpam-content {
+    max-width: 1300px;
+}
+
+.ad-title {
+    width: 400px;
+}
+
+.rp-remote-info {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+
+span.nav-tab {
+    color: #8e8e8e;
+}
+span.nav-tab:hover {
+    background: #e5e5e5;
+    color: #8e8e8e;
+}
+
+span.nav-tab-active {
+    color: #8e8e8e;
+}
+span.nav-tab-active:hover {
+    background: #f1f1f1;
+}
+
+.group-container {
+    margin-bottom: 1em;
+}
+
+/* Editor page styles */
+.rp-flex-container {
+    margin: 1em 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.rp-flex-container > * {
+    flex: 1 100%;
+}
+
+.rp-form-block-1 {
+    order: 1;
+    flex: 2;
+}
+
+.rp-form-block-2 {
+    order: 2;
+    flex: 0 450px;
+}
+
+.rp-form-footer {
+    order: 3;
+    margin: 1em 0;
+}
+
+@media all and (min-width: 1101px) {
+    .rp-form-block-1 {
+        padding-right: 10px;
+    }
+
+    .rp-form-block-2 {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .rp-form-block-1 {
+        flex: 1 100%;
+    }
+
+    .rp-form-block-2 {
+        flex: 1 100%;
+    }
+}
+
+.separate-init-code-wrapper {
+    margin-top: 1.2em;
+}
+
+.code-editor {
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+}
+
+.place-options {
+    margin-left: 24px;
+}
+
+.place-options select {
+    width: 100%;
+}
+
+#titlediv input {
+    padding: 8px;
+    border: 1px solid #b8b8b8;
+    border-radius: 3px;
+}
+
+.CodeMirror-wrap {
+    border: 1px solid #b8b8b8;
+    border-radius: 3px;
+}
+
+.place-options input[type=text] {
+    font-size: 13px;
+    padding: 8px;
+    border-color: #b8b8b8;
+    border-radius: 3px;
+}
+
+.label-holder {
+    padding: 8px 0;
+}
+
+.f-block {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.f-block > * {
+    flex: 1 100%;
+    margin-right: 4px;
+}
+
+.f-list-0 {
+    flex:1;
+    margin-top: 2px;
+}
+
+.f-list-1 {
+    flex:1;
+    order: 1;
+}
+
+.f-list-2 {
+    flex:1;
+    order: 2;
+}
+
+.f-list-3 {
+    flex:1;
+    order: 3;
+}
+
+.f-list-4 {
+    flex:1;
+    order: 4
+}
+
+.f-item-1 {
+    flex: 0 1 0;
+    order: 1;
+    margin-right: 1em;
+    line-height: 23px;
+}
+
+@media screen and (max-width: 782px) {
+    .f-item-1 {
+        line-height: 30px;
+    }
+}
+
+.f-item-2 {
+    flex: 1 0 0;
+    order: 2;
+}
+
+.select-holder {
+    flex-basis: 150px;
+}
+
+.place-options > div {
+    white-space: nowrap;
+    margin: .2em 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50p {
+    text-align: center;
+    width: 50px;
+}
+
+.buttons > a, .buttons > button {
+    margin-right: 5px !important;
+}
+
+.button.delete:hover {
+    color: #fff;
+    background: #aa0000;
+    border-color: #aa0000;
+}
+
+.p-tb {
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+.whats-new {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.button.choose-type {
+    width: 200px;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+}
+
+.button.choose-type .dashicons {
+    font-size: 72px;
+    display: block;
+    float: none;
+    line-height: 72px;
+    width: auto;
+    height: auto;
+}
